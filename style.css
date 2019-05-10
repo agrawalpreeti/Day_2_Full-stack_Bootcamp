@@ -1,0 +1,73 @@
+#p1{
+     background-color: yellow;
+     color: red;
+     font-size: 30px;
+}
+.p2{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+#p3{
+    background-color: yellow;
+    color: green;
+    font-size: 30px;
+   
+}
+.div{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0px 5px 5px;
+    border: 2px;
+    background-color: yellow;
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    background-image: url(download.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    width: 50%;
+    border-radius: 10px;
+  
+}
+ .div:hover
+ {
+     background-color: white;
+     transform: translateX(20px);
+     opacity: 0.6;
+     filter: alpha(opacity=60) ;  
+     cursor: pointer;
+ }
+
+ .container{
+     display: flex;
+     
+ }
+ 
+ .container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+height: 300px;
+   align-items: center;
+   position: relative;
+}
+<br><br>
+
+.p7{
+      
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+    
+
